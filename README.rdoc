@@ -1,0 +1,40 @@
+My path to the dark side...
+
+== Inspiration
+
+A special thanks to Mike Clark and Ara Howard for inspiring this
+project.  Mike Clark wrote an excellent blog post about learning Ruby
+through unit testing. This sparked an idea that has taken a bit to
+solidify, that of bringing new rubyists into the community through
+testing. Ara Howard then gave us the idea for the Koans in his ruby
+quiz entry on Meta Koans (a must for any rubyist wanting to improve
+their skills).  Also, "The Little Lisper" taught us all the value of
+the short questions/simple answers style of learning.
+
+Mike Clark's post ::  http://www.clarkware.com/cgi/blosxom/2005/03/18
+Meta Koans        ::  http://rubyquiz.com/quiz67.html
+The Little Lisper ::  http://www.amazon.com/Little-LISPer-Third-Daniel-Friedman/dp/0023397632
+
+== Other Resources
+
+The Ruby Language               ::  http://ruby-lang.org
+Try Ruby in your browser        ::  http://tryruby.org
+
+Dave Thomas' introduction to Ruby Programming Ruby (the Pick Axe) ::  http://pragprog.com/titles/ruby/programming-ruby
+
+Brian Marick's fantastic guide for beginners Everyday Scripting with Ruby    ::  http://pragprog.com/titles/bmsft/everyday-scripting-with-ruby
+
+= Other stuff
+
+Author         :: Jim Weirich <jim@weirichhouse.org>
+Author         :: Joe O'Brien <joe@edgecase.com>
+Issue Tracker  :: http://www.pivotaltracker.com/projects/48111
+Requires       :: Ruby 1.8.x or later and Rake (any recent version)
+
+= License
+
+http://i.creativecommons.org/l/by-nc-sa/3.0/88x31.png
+
+RubyKoans is released under a Creative Commons,
+Attribution-NonCommercial-ShareAlike, Version 3.0
+(http://creativecommons.org/licenses/by-nc-sa/3.0/) License.
