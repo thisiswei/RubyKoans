@@ -30,10 +30,30 @@ require File.expand_path(File.dirname(__FILE__) + '/edgecase')
 # Your goal is to write the score method.
 
 def score(dice)
-  # You need to write this method
-end
+
+  return 0 if dice.empty?
+
+  points = 0 
+
+  hash = dice.inject(Hash.new(0)) {|h,v| h[v]+=1; h } 
+  (1..6).map do |roll|
+    case roll
+    when 5
+      points += (hash[roll]/3)*500 + (hash[roll]%3)*50
+    when 1
+      points += (hash[roll]/3)*1000 + (hash[roll]%3)*100
+    else
+      points += (hash[roll]/3)*roll*100 
+    end 
+  end
+
+  points 
+end 
+
+
 
 class AboutScoringProject < EdgeCase::Koan
+
   def test_score_of_an_empty_list_is_zero
     assert_equal 0, score([])
   end
